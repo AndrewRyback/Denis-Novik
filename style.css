@@ -1,32 +1,90 @@
-header {
+.nav-menu {
   position: relative;
   padding: 0px, 120px, 0px, 120px;
-  height: 80px;
+  height: 60px;
   width: 1440px;
   text-align: center;
 }
-.header-menu {
+.nav-section {
   position: relative;
-  left: 472px;
-  right: 472px;
-  padding: 0px, 120px, 0px, 120px;
-
+  right: 475px;
+  left: 475px;
   width: 496px;
   height: 30px;
-  gap: 40px;
+  margin-top: 25px;
   opacity: 0px;
   word-spacing: 40px;
-
-  text-decoration: none;
 }
 
 body {
   font-family: "Open.sans", sans-serif;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 300;
+}
+
+.line {
+  position: center;
+  border: 1px solid #828282;
+  width: 907px;
+  height: 0px;
+  margin-top: 25px;
+  margin-left: 235px;
+  margin-right: 235px;
+  margin-bottom: 12px;
 }
 
 .link-home {
   color: #090909;
   line-height: 25.51px;
+  text-decoration: none;
+}
+
+#aboutme {
+  word-spacing: 0px;
+}
+
+.link-AboutMe {
+  text-decoration: none;
+  color: #828282;
+}
+
+.link-Contacts {
+  text-decoration: none;
+  color: #828282;
+}
+.link-Portfolio {
+  text-decoration: none;
+  color: #828282;
+}
+.link-Skills {
+  text-decoration: none;
+  color: #828282;
+}
+
+.header {
+  position: absolute;
+  height: 497px;
+  width: 970px;
+  top: 92px;
+  left: 235px;
+}
+.Denis {
+  position: absolute;
+  width: 970px;
+  height: 387px;
+  object-fit: cover;
+  top: 110px;
+}
+
+h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 60px;
+  width: 300px;
+  font-weight: 700;
+  size: 48px;
+  line-height: 65.37px;
+  color: #070707;
+  margin-top: 0;
 }
