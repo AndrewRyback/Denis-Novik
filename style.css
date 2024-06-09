@@ -1,0 +1,32 @@
+header {
+  position: relative;
+  padding: 0px, 120px, 0px, 120px;
+  height: 80px;
+  width: 1440px;
+  text-align: center;
+}
+.header-menu {
+  position: relative;
+  left: 472px;
+  right: 472px;
+  padding: 0px, 120px, 0px, 120px;
+
+  width: 496px;
+  height: 30px;
+  gap: 40px;
+  opacity: 0px;
+  word-spacing: 40px;
+
+  text-decoration: none;
+}
+
+body {
+  font-family: "Open.sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.link-home {
+  color: #090909;
+  line-height: 25.51px;
+}
