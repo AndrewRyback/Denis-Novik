@@ -20,6 +20,7 @@ body {
   font-family: "Open.sans", sans-serif;
   font-size: 18px;
   font-weight: 300;
+  overflow: scroll;
 }
 
 .line {
@@ -87,4 +88,26 @@ h1 {
   line-height: 65.37px;
   color: #070707;
   margin-top: 0;
+}
+
+.section-aboutme {
+  position: absolute;
+  width: 1440px;
+  height: 500px;
+  top: 589px;
+
+  text-align: center;
+  background-color: #f6f6f6;
+}
+
+.aboutme {
+  position: fixed;
+  top: 100px;
+  left: 385px;
+  right: 385px;
+
+  font-weight: 200;
+  size: 84px;
+  height: 40px;
+  width: 200px;
 }
