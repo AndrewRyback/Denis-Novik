@@ -44,6 +44,14 @@ body {
   word-spacing: 0px;
 }
 
+a:hover {
+  color: #515151;
+}
+
+a:active {
+  color: #181818;
+}
+
 .link-AboutMe {
   text-decoration: none;
   color: #828282;
