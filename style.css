@@ -1,7 +1,6 @@
 .nav-menu {
   padding: 0px, 120px, 0px, 120px;
   height: 60px;
-
   text-align: center;
 }
 .nav-section {
@@ -24,12 +23,12 @@ body {
 .line {
   position: center;
   border: 1px solid #828282;
-  width: 907px;
+  width:100%;
   height: 0px;
-  margin-top: 25px;
-  margin-left: 235px;
-  margin-right: 235px;
-  margin-bottom: 12px;
+  margin-top: -25px;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-bottom: 12px; */
 }
 
 .link-home {
@@ -68,16 +67,20 @@ a:active {
   color: #828282;
 }
 
-.header {
+.container {
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
-
-  width: 970px;
+  width: 100%;
+  max-width: 970px;
+  height: 497px;
 }
+
+
+
 .Denis {
-  width: 970px;
-  height: 387px;
+  max-width: 100%;
+  height: auto;
   object-fit: cover;
 }
 
@@ -93,7 +96,8 @@ h1 {
 .section-aboutme {
   margin-left: auto;
   margin-right: auto;
-  width: 1440px;
+  max-width: 970px;
+  width: 100%;
   padding-bottom: 100px;
   padding-top: 100px;
   text-align: center;
@@ -101,12 +105,12 @@ h1 {
 }
 
 .aboutme {
-  margin: 0 auto;
+ margin: 0 auto; 
   padding-bottom: 20px;
   font-weight: 700;
-  size: 34px;
+  font-size: 34px;
   line-height: 46.3px;
-  width: 200px;
+  width: 100%;
 }
 
 .p1 {
@@ -114,7 +118,7 @@ h1 {
   margin-right: auto;
   top: 190px;
   font-weight: 200;
-  size: 18px;
+  font-size: 18px;
   line-height: 24.51px;
   text-align: center;
 }
@@ -124,7 +128,7 @@ h1 {
   margin-right: auto;
   font-weight: 200;
   top: 220px;
-  size: 18px;
+  font-size: 18px;
   line-height: 24.51px;
   text-align: center;
 }
@@ -132,7 +136,7 @@ h1 {
 .p3 {
   margin-left: auto;
   margin-right: auto;
-  size: 18px;
+  font-size: 18px;
   line-height: 24.51px;
   text-align: center;
   top: 250px;
