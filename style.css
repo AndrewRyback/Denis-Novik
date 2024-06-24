@@ -1,0 +1,183 @@
+.nav-menu {
+  padding: 0px, 120px, 0px, 120px;
+  height: 60px;
+  text-align: center;
+}
+.nav-section {
+  margin-left: auto;
+  margin-right: auto;
+  width: 496px;
+  height: 30px;
+  margin-top: 25px;
+  opacity: 0px;
+  word-spacing: 40px;
+}
+
+body {
+  font-family: "Open.sans", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  overflow: scroll;
+}
+
+.line {
+  position: center;
+  border: 1px solid #828282;
+  width:100%;
+  height: 0px;
+  margin-top: -25px;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-bottom: 12px; */
+}
+
+.link-home {
+  color: #090909;
+  line-height: 25.51px;
+  text-decoration: none;
+}
+
+#aboutme {
+  word-spacing: 0px;
+}
+
+a:hover {
+  color: #515151;
+}
+
+a:active {
+  color: #181818;
+}
+
+.link-AboutMe {
+  text-decoration: none;
+  color: #828282;
+}
+
+.link-Contacts {
+  text-decoration: none;
+  color: #828282;
+}
+.link-Portfolio {
+  text-decoration: none;
+  color: #828282;
+}
+.link-Skills {
+  text-decoration: none;
+  color: #828282;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 100%;
+  max-width: 970px;
+  height: 497px;
+}
+
+
+
+.Denis {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+h1 {
+  width: 300px;
+  font-weight: 700;
+  size: 48px;
+  margin-left: 20px;
+  color: #070707;
+  margin-top: 0;
+}
+
+.section-aboutme {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 970px;
+  width: 100%;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  text-align: center;
+  background-color: #f6f6f6;
+}
+
+.aboutme {
+ margin: 0 auto; 
+  padding-bottom: 20px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 46.3px;
+  width: 100%;
+}
+
+.p1 {
+  margin-left: auto;
+  margin-right: auto;
+  top: 190px;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 24.51px;
+  text-align: center;
+}
+
+.p2 {
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 200;
+  top: 220px;
+  font-size: 18px;
+  line-height: 24.51px;
+  text-align: center;
+}
+
+.p3 {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  line-height: 24.51px;
+  text-align: center;
+  top: 250px;
+  font-weight: 200;
+}
+
+/* .section-skills {
+  margin-left: auto;
+  margin-right: auto;
+  top: 1009px;
+  text-align: center;
+}
+
+.h-skills {
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 700;
+  size: 34px;
+  line-height: 46.3px;
+}
+
+.container-skills {
+  margin-left: auto;
+  margin-right: auto;
+
+  height: 564px;
+  width: 970px;
+  text-align: center;
+}
+
+.listPS {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  font-weight: 700;
+  size: 14px;
+  color: #828282;
+}
+.PS {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+} */
